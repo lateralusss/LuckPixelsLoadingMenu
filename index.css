@@ -22,6 +22,10 @@ body {
     color: white;
 }
 
+.dotdotdot {
+    color: white;
+}
+
 @keyframes loadingTextAnim {
     0% {
         opacity: 0;
