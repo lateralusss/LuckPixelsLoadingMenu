@@ -1,0 +1,63 @@
+body {
+    background: rgb(208,120,255);
+    background: linear-gradient(90deg, rgba(208,120,255,1) 0%, rgba(150,219,255,1) 100%);
+}
+
+.mainLogo {
+    transform: translateY(150px);
+    animation: logoAnim 4s 1;
+}
+
+.LuckPixelsText {
+    transform: translateY(120px);
+    animation: logoTextAnim 8s 1;
+    font-family: sans-serif;
+    color: white;
+}
+
+.loadingText {
+    transform: translateY(97px);
+    animation: loadingTextAnim 9s 1;
+    font-family: sans-serif;
+    color: white;
+}
+
+@keyframes loadingTextAnim {
+    0% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes logoTextAnim {
+    0% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes logoAnim {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    60% {
+        position: 50px;
+    }
+    100% {
+        transform: translateY(150px);
+    }
+}
