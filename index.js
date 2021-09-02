@@ -1,0 +1,1 @@
+function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamemode, volume, language ) {}
