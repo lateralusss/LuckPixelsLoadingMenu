@@ -3,6 +3,10 @@ body {
     background: linear-gradient(90deg, rgba(234,60,60,1) 0%, rgba(252,156,156,1) 43%, rgba(243,165,165,1) 68%, rgba(249,215,215,1) 98%);
 }
 
+.currentMap {
+    font-size: 12px;
+}
+
 .mainLogo {
     transform: translateY(150px);
     animation: logoAnim 4s 1;
