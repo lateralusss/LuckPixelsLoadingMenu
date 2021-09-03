@@ -1,6 +1,6 @@
 body {
-    background: rgb(208,120,255);
-    background: linear-gradient(90deg, rgba(208,120,255,1) 0%, rgba(150,219,255,1) 100%);
+    background: rgb(107,107,107);
+    background: linear-gradient(90deg, rgba(107,107,107,1) 0%, rgba(70,42,42,1) 100%);
 }
 
 .mainLogo {
